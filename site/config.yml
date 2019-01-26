@@ -22,9 +22,6 @@ layoutDir:              "layouts"
 staticDir:              "static"
 themesDir:              "themes"
 
-ignoreFiles:
-  - assets/scss/
-
 params:
   description:          "The most popular HTML, CSS, and JS library in the world."
   authors:              "Mark Otto, Jacob Thornton, and Bootstrap contributors"
