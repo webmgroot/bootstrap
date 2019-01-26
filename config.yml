@@ -14,13 +14,14 @@ enableRobotsTXT:        true
 metaDataFormat:         "yaml"
 disableKinds:           ["404", "section", "taxonomy", "taxonomyTerm", "RSS"]
 
-publishDir:             "../_gh_pages"
-archetypeDir:           "archetypes"
-contentDir:             "content"
-dataDir:                "data"
-layoutDir:              "layouts"
-staticDir:              "static"
-themesDir:              "themes"
+publishDir:             "_gh_pages"
+archetypeDir:           "site/archetypes"
+assetDir:               "site/assets"
+contentDir:             "site/content"
+dataDir:                "site/data"
+layoutDir:              "site/layouts"
+staticDir:              "site/static"
+themesDir:              "site/themes"
 
 params:
   description:          "The most popular HTML, CSS, and JS library in the world."
