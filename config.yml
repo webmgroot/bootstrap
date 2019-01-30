@@ -12,7 +12,7 @@ buildFuture:            true
 
 enableRobotsTXT:        true
 metaDataFormat:         "yaml"
-disableKinds:           ["404", "section", "taxonomy", "taxonomyTerm", "RSS"]
+disableKinds:           ["404", "taxonomy", "taxonomyTerm", "RSS"]
 
 publishDir:             "_gh_pages"
 archetypeDir:           "site/archetypes"
